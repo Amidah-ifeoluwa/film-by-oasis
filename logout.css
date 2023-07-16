@@ -8,12 +8,14 @@
 }
 
 body {
-    background-color: black;
+    background-color: black !important;
+    color: white !important;
 }
 
 .container {
+    background-color: black;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,6 +23,7 @@ body {
 }
 
 .form {
+    background-color: #3a3838;
     max-width: 430px;
     width: 100%;
     padding: 30px;
@@ -31,7 +34,7 @@ body {
 header {
     font-size: 26px;
     font-weight: 600;
-    color: #232836;
+    color: white;
     text-align: center;
 }
 
@@ -72,10 +75,14 @@ form {
     top: 50%;
     right: 10px;
     font-size: 18px;
-    color: #8b8b8b;
+    color: white;
     cursor: pointer;
     padding: 5px;
     transform: translateY(-50%);
+}
+
+p {
+    color: white !important;
 }
 
 .field button {
@@ -98,7 +105,7 @@ form {
 .form-link a {
     font-size: 14px;
     font-weight: 400;
-    color: #232836;
+    color: white;
 }
 
 .form a {
