@@ -33,7 +33,7 @@ signUpButton.addEventListener("click", (e) => {
       location.reload();
       var user = userCredential.user;
       console.log("user", user.email);
-      alert("sucessful")
+      alert(" You're Signed In")
     })
 
     .catch((error) => {
@@ -68,7 +68,7 @@ signInButton.addEventListener('click', (e) => {
       var user = userCredential.user;
       console.log("user", user.email);
       window.location = "index2.html";
-      alert("sucessful")
+      alert("Sign In Sucessful")
     })
 
     .catch((error) => {
