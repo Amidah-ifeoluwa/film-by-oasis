@@ -18,7 +18,7 @@ firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
 //Signup Function
-let signUpButton = document.getElementById("signup");
+let signUpButton = document.getElementById("signup1");
 
 signUpButton.addEventListener("click", (e) => {
   e.preventDefault();
@@ -52,9 +52,9 @@ signUpButton.addEventListener("click", (e) => {
 
 
 //Signin Function
-let signInButton = document.getElementById("signin");
+let signInButton = document.getElementById("signup");
 
-signInButton.addEventListener("click", (e) => {
+signInButton.addEventListener('click', (e) => {
   e.preventDefault();
   console.log("signin click");
 
